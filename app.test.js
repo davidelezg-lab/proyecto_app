@@ -1,5 +1,3 @@
-const suma = require('./app');
+function suma(a, b) {
+  return a - b; // ERROR INTENCION
 
-test('2 + 3 debe ser 5', () => {
-  expect(suma(2, 3)).toBe(5);
-});
